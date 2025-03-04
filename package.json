@@ -11,34 +11,38 @@
     "url": "git+https://github.com/jthoma/aws-serverless-session-manager-nodejs.git"
   },
   "keywords": [
-  "serverless",
-  "session",
-  "sessions",
-  "session-management",
-  "session-store",
-  "authentication",
-  "authorization",
-  "aws",
-  "lambda",
-  "elasticache",
-  "memcached",
-  "sam",
-  "cloudwatch",
-  "nodejs",
-  "javascript",
-  "cookie",
-  "distributed-sessions",
-  "caching",
-  "stateless",
-  "scalable",
-  "performance",
-  "php-session",
-  "easy-session"
-],
+    "serverless",
+    "session",
+    "sessions",
+    "session-management",
+    "session-store",
+    "authentication",
+    "authorization",
+    "aws",
+    "lambda",
+    "elasticache",
+    "memcached",
+    "sam",
+    "cloudwatch",
+    "nodejs",
+    "javascript",
+    "cookie",
+    "distributed-sessions",
+    "caching",
+    "stateless",
+    "scalable",
+    "performance",
+    "php-session",
+    "easy-session"
+  ],
   "author": "Jiju Thomas Mathew <jijutm@gmail.cm> (https://www.jijutm.com/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jthoma/aws-serverless-session-manager-nodejs/issues"
   },
-  "homepage": "https://github.com/jthoma/aws-serverless-session-manager-nodejs#readme"
+  "homepage": "https://github.com/jthoma/aws-serverless-session-manager-nodejs#readme",
+  "dependencies": {
+    "@aws-sdk/client-elasticache": "^3.758.0",
+    "memcached": "^2.2.2"
+  }
 }
