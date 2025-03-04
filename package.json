@@ -1,0 +1,44 @@
+{
+  "name": "aws-serverless-session-manager-nodejs",
+  "version": "1.0.0",
+  "description": "A Session Manager to handle server side sessions smoothly like it happens on PHP. As this is primarily targeted for AWS Serverless NodeJS Applications, the session store is defined to be AWS ElastiCache Memcached. Further ideas and more evil thoughts were also there but ruled out everything as they were all with substantial performance degradation when compared with ElastiCache.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jthoma/aws-serverless-session-manager-nodejs.git"
+  },
+  "keywords": [
+  "serverless",
+  "session",
+  "sessions",
+  "session-management",
+  "session-store",
+  "authentication",
+  "authorization",
+  "aws",
+  "lambda",
+  "elasticache",
+  "memcached",
+  "sam",
+  "cloudwatch",
+  "nodejs",
+  "javascript",
+  "cookie",
+  "distributed-sessions",
+  "caching",
+  "stateless",
+  "scalable",
+  "performance",
+  "php-session",
+  "easy-session"
+],
+  "author": "Jiju Thomas Mathew <jijutm@gmail.cm> (https://www.jijutm.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jthoma/aws-serverless-session-manager-nodejs/issues"
+  },
+  "homepage": "https://github.com/jthoma/aws-serverless-session-manager-nodejs#readme"
+}
