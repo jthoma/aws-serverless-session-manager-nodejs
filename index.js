@@ -37,7 +37,6 @@ async function getSessionData(sessionId) {
   });
 }
 
-// ... other session management functions (getSession, setSession, destroySession) ...
 
 function generateSessionId() {
   return crypto.randomBytes(32).toString('hex');

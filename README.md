@@ -1,5 +1,5 @@
 # aws-serverless-session-manager-nodejs
-Session Manager similar to php sessions for AWS Serverless application in NodeJS
+Session Manager for AWS Serverless application in NodeJS with no framework dependency
 
 
 # Just started and is a WIP 
